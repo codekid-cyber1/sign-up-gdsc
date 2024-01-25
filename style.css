@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.contaner{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../asset/home\ img.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  position: relative;
+  display: grid;
+  grid-template-columns: 40% 80%;
+  overflow: hidden;
+}
+.side-nav{
+  top: 382px;
+  left: 317px;
+}
+.astonort{
+  margin-top: 98px;
+  margin-left: 19rem;
+}
+.earth{
+  margin-left: 10px;
+  margin-top: -6rem;
+}
+.right-nav{
+  width: 100vw;
+  height: 100%;
+  background-color: #ffff;
+  border-radius: 24px;
+  border: none;
+  position: relative;
+}
+.language-contaner{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 3px;
+  width: 57vw;
+}
+.language{
+  color: rgba(26, 23, 23, 0.53);
+}
+.icon{
+  margin-left: 1rem;
+}
+.form-cover{
+  margin-top: 11vh;
+  margin-left: 10vw;
+  /* background: blue; */
+  width: 40%;
+  position: relative;
+}
+h1{
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29.05px;
+  color: #181818;
+  letter-spacing: 18%;
+}
+button{
+  width: 80%;
+  height: 56px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border: 1px solid ;
+  border-radius: 8px ;
+  color: rgba(24, 24, 24, 1);
+  border-color:  rgba(0, 0, 0, 0.12);
+  background: #ffff;
+}
+.social-icon button img{
+  margin-right: 0.5rem;
+}
+.social-icon{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: left;
+  /* gap: 0.5px; */
+}
+.social-icon button p{
+  cursor: pointer;
+}
+.else-statement{
+  padding-left: 44%;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  width: 100%;
+  color: rgba(26, 23, 23, 0.38);
+  /* background: black; */
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29.05px;
+  letter-spacing: 18%;
+}
+.al-input{
+  display: grid;
+  gap: 11px;
+}
+input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: #ffff;
+  border-left: #ffff;
+  border-right: #ffff;
+  outline: none;
+}
+.case{
+    position: relative;
+    display: flex;
+}
+.create{
+  width: 100%;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 3rem;
+  background: rgba(39, 149, 116, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  line-height: 24.2px;
+  cursor: pointer;
+}
+.create:active{
+  cursor:progress;
+}
+.loging-txt{
+  width: 330px;
+  height: 44px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0.1rem;
+}
+.loging-txt .login{
+  margin-right: 3px;
+}
+@media (max-width: 1193px){
+  *{
+    transition: all 1s ;
+  }
+  .astonort{
+    width: 11rem;
+    margin-top: 98px;
+    margin-left: 14rem;
+  }
+  .earth{
+    width: 29rem;
+    margin-left: 5px;
+    margin-top: -6rem;
+  }
+  .social-icon button a img{
+    width: 23px;
+  }
+  .social-icon button p{
+    font-size: 10px;
+  }
+}
+@media (max-width: 918px){
+  .social-icon button{
+    display: block;
+  }
+  /* button{
+  width: 80%;
+  height: 56px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border: 1px solid ;
+  border-radius: 8px ;
+  color: rgba(24, 24, 24, 1);
+  border-color:  rgba(0, 0, 0, 0.12);
+  background: #ffff;
+}*/
+.social-icon button img{
+  margin-top: 6px;
+} 
+.social-icon button p{
+  margin-bottom: 6px;
+  font-size: 9px;
+} 
+.astonort{
+  width: 9rem;
+  margin-top: 98px;
+  margin-left: 12rem;
+}
+.earth{
+  width: 29rem;
+  margin-left: 3px;
+  margin-top: -3rem;
+}
+}
+@media(max-width: 783px){
+  .side-nav{
+    display: none;
+  }
+  .form-cover{
+    width: 70%;
+  }
+  .right-nav{
+    border-radius: 0;
+  }
+  .language-contaner{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 3px;
+    width: 95vw;
+  }
+  h1{
+    text-align: center;
+  }
+  .else-statement{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+}
