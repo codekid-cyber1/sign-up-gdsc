@@ -8,7 +8,7 @@ body{
 .contaner{
   width: 100vw;
   height: 100vh;
-  background-image: url(../asset/home\ img.jpg);
+  background-image: url(./home\ img.jpg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -53,7 +53,6 @@ body{
 .form-cover{
   margin-top: 11vh;
   margin-left: 10vw;
-  /* background: blue; */
   width: 40%;
   position: relative;
 }
@@ -83,7 +82,6 @@ button{
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: left;
-  /* gap: 0.5px; */
 }
 .social-icon button p{
   cursor: pointer;
@@ -94,7 +92,6 @@ button{
   padding-bottom: 3rem;
   width: 100%;
   color: rgba(26, 23, 23, 0.38);
-  /* background: black; */
   font-weight: 800;
   font-size: 24px;
   line-height: 29.05px;
@@ -170,35 +167,23 @@ input{
   .social-icon button{
     display: block;
   }
-  /* button{
-  width: 80%;
-  height: 56px;
-  display: flex;
-  position: relative;
-  align-items: center;
-  border: 1px solid ;
-  border-radius: 8px ;
-  color: rgba(24, 24, 24, 1);
-  border-color:  rgba(0, 0, 0, 0.12);
-  background: #ffff;
-}*/
-.social-icon button img{
-  margin-top: 6px;
-} 
-.social-icon button p{
-  margin-bottom: 6px;
-  font-size: 9px;
-} 
-.astonort{
-  width: 9rem;
-  margin-top: 98px;
-  margin-left: 12rem;
-}
-.earth{
-  width: 29rem;
-  margin-left: 3px;
-  margin-top: -3rem;
-}
+  .social-icon button img{
+    margin-top: 6px;
+  } 
+  .social-icon button p{
+    margin-bottom: 6px;
+    font-size: 9px;
+  } 
+  .astonort{
+    width: 9rem;
+    margin-top: 98px;
+    margin-left: 12rem;
+  }
+  .earth{
+    width: 29rem;
+    margin-left: 3px;
+    margin-top: -3rem;
+  }
 }
 @media(max-width: 783px){
   .side-nav{
